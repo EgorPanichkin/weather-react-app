@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'DS-Digital';
+    src: url('DS-Digital-BoldItalic.eot');
+    src: url('DS-Digital-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('DS-Digital-BoldItalic.woff2') format('woff2'),
+        url('DS-Digital-BoldItalic.woff') format('woff'),
+        url('DS-Digital-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
