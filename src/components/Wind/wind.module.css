@@ -1,0 +1,32 @@
+.container {
+  padding: 33px;
+  background-color: #1B1B1D;
+  border-radius: 15px;
+  box-shadow: 5px 5px 12px #055f9f92;
+}
+
+.compass {
+  margin: 0 auto;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-image: url(./compas.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.arrow {
+  position: absolute;
+  top: 37px;
+  left: 93px;
+  height: 125px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: left;
+}

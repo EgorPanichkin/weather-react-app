@@ -3,14 +3,14 @@ import style from './Header.module.css'
 
 export default function Header(props) {
 
-  const [time, setTime] = useState(new Date())
+  // const [time, setTime] = useState(new Date())
   const [value, setValue] = useState('')
 
-  setInterval(() => {setTime(new Date())}, 1000)
+  // setInterval(() => {setTime(new Date())}, 1000)
   
-  function makeTwoDigits(number) {
-    return String(number).padStart(2, '0');
-  }
+  // function makeTwoDigits(number) {
+  //   return String(number).padStart(2, '0');
+  // }
 
   function handleChange(value) {
     setValue(value)
@@ -33,10 +33,10 @@ export default function Header(props) {
 
   return (
     <div className={style.container}>
-      <div className={style.clock}>
+      {/* <div className={style.clock}>
         <p>{makeTwoDigits(time.getHours())}:{makeTwoDigits(time.getMinutes())}:{makeTwoDigits(time.getSeconds())}</p>
-        <p>{time.getDate()}.{time.getMonth()}.{time.getFullYear()}</p>
-      </div>
+        <p>{time.getDate()}.{time.getMonth() + 1}.{time.getFullYear()}</p>
+      </div> */}
       <input 
         value={value}
         className={style.search}

@@ -6,6 +6,19 @@
   line-height: 17px;
   letter-spacing: 0em;
   text-align: left;
-  background-color: #0F0F11;
+  background-color: #000;
+  background-image: url(./img/background.gif);
+  background-position-y: -200px;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #ffff;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  width: 85%;
+  margin: 50px auto;
 }
