@@ -9,6 +9,7 @@ export default function Weather({ data }) {
         <div className={style.leftItem}>
           <p>Country: {data.sys.country}</p>
           <p>Temp: {Math.round(data.main.temp - 273.15)} &deg;C</p>
+          <p>Feels like: {Math.round(data.main.feels_like - 273.15)} &deg;C</p>
           <p>Humidity: {data.main.humidity}%</p>
         </div>
         <div className={style.rightItem}>

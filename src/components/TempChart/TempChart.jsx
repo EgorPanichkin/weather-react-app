@@ -55,7 +55,6 @@ export default function TempChart({ forecastData }) {
       },
       labels: {
         display: true,
-        color: 'red'
       },
       ticks: {
         display: false,
@@ -68,10 +67,10 @@ export default function TempChart({ forecastData }) {
     datasets: [
       {
         fill: true,
-        label: 'Temperature',
+        label: `Temperature (C)`,
         data: forecastData.list.map((item) => ((item.main.temp) - 273.15)),
-        borderColor: 'rgb(53, 162, 235)',
-        backgroundColor: 'rgba(53, 162, 235, 0.5)',
+        borderColor: 'rgb(255, 255, 235)',
+        backgroundColor: 'rgba(14, 14, 196, 0.7)',
         hoverBorderColor: 'red'
       }
     ]

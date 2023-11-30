@@ -23,6 +23,7 @@
   top: 37px;
   left: 93px;
   height: 125px;
+  transition: rotate 2s cubic-bezier(0.5, -1, 0.5, 2);
 }
 
 .text {

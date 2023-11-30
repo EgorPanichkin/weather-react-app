@@ -6,6 +6,7 @@ import Weather from './components/Weather/Weather'
 import Wind from './components/Wind/Wind';
 import Forecast from './components/Forecast/Forecast';
 import TempChart from './components/TempChart/TempChart';
+import WeatherCountChart from './components/WeatherCountChart/WeatherCountChart';
 
 const API_KEY = 'e417df62e04d3b1b111abeab19cea714'
 // const API_URL = `https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=${API_KEY}`
@@ -85,6 +86,7 @@ function App() {
         {isweatherLoad && <Weather data={weatherData}/>}
         {isForecastLoad && <Forecast data={forecastData}/>}
         {isweatherLoad && <Wind data={weatherData}/>}
+        {isForecastLoad && <WeatherCountChart forecastData={forecastData} />}
         {isForecastLoad && <TempChart forecastData={forecastData}/>}
       </div>
     </div>

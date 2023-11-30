@@ -8,13 +8,13 @@
 
 .header {
   font-size: 24px;
-  margin-bottom: 15px;
+  margin-bottom: 32px;
 }
 
 .content {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
   gap: 10px;
 }
 
